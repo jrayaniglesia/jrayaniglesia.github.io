@@ -29,6 +29,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.TIPS_TOKEN }}
-          REPOSITORY_NAME: jrayaniglesia/jrayaniglesia.github.io
+          REPOSITORY_NAME: jrayaniglesia.github.io
           BRANCH: main # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
